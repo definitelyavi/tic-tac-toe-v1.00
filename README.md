@@ -30,5 +30,4 @@ tic-tac-toe-v1.00/
 │   └── main.css       # Styling and animations
 ├── scripts/
 │   └── game.js        # Game logic and event handling
-└── assets/            # (Optional) Sounds, images, or icons
 </pre>
