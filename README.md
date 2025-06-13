@@ -1,33 +1,51 @@
 # Tic-Tac-Toe v1.00
 
-A minimalist and responsive implementation of the classic Tic-Tac-Toe game built with HTML, CSS, and JavaScript. This version emphasizes clean design, smooth animations, and intuitive gameplay suitable for desktop and mobile users.
+A minimalist, responsive Tic-Tac-Toe game featuring clean design, smooth animations, and intelligent AI gameplay. Built with vanilla JavaScript and modern web technologies.
 
-## Live Demo
-
-[Play the game](https://definitelyavi.github.io/tic-tac-toe-v1.00/)
+**[Play Live Demo](https://definitelyavi.github.io/tic-tac-toe-v1.00/)**
 
 ## Features
 
-- Two-player mode (X and O)
-- Turn-based logic with visual turn indication
-- Animated X and O mark transitions
-- Win/tie detection with overlay messages
-- Game reset functionality
+- **Dual Game Modes**: Play against AI or local multiplayer
+- **Intelligent AI**: Strategic gameplay with win/block detection and corner preference
+- **Audio System**: Web Audio API implementation with dynamic sound effects
+- **Score Tracking**: Persistent scoreboard with win/tie statistics
+- **Responsive Design**: Optimized for desktop and mobile devices
+- **Visual Feedback**: Smooth animations and winning sequence highlights
 
-## Planned Improvements
+## Tech Stack
 
-- Sound effects for moves and win states
-- AI opponent with difficulty levels
-- Dark/light theme toggle
-- Persistent score tracking
+- **Frontend**: HTML5, CSS3, Vanilla JavaScript
+- **Audio**: Web Audio API for cross-browser sound generation
+- **Design**: CSS Grid, Flexbox, custom animations
+- **Logic**: Minimax-inspired AI decision making
 
-## File Structure
+## Game Mechanics
 
-<pre>
-tic-tac-toe-v1.00/
-├── index.html         # Core structure and layout
+The AI implements strategic decision-making by prioritizing winning moves, blocking opponent wins, controlling the center position, and selecting optimal corner positions. Visual feedback includes winning piece highlights and smooth transition animations.
+
+## Architecture
+
+```
+├── index.html           # Game structure and layout
 ├── styles/
-│   └── main.css       # Styling and animations
-├── scripts/
-│   └── game.js        # Game logic and event handling
-</pre>
+│   └── main.css         # Responsive styling and animations
+└── scripts/
+    └── game.js          # Core game logic and AI implementation
+```
+
+## Quick Start
+
+```bash
+git clone https://github.com/definitelyavi/tic-tac-toe-v1.00.git
+cd tic-tac-toe-v1.00
+# Open index.html in your browser
+```
+
+## Author
+
+**Jashandeep Singh** [@definitelyavi](https://github.com/definitelyavi)
+
+---
+
+*Classic strategy meets modern web development*
